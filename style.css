@@ -11,8 +11,8 @@ body{
     min-height: 100vh;
     position: relative;
     overflow: hidden;
-    background-color: #222;
-    color: #fff;
+    background-color: #fff;
+    color: #222;
 }
 span{
     position: absolute;
