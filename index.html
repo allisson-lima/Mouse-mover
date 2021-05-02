@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Background Animate</title>
+</head>
+<body>
+    <h1>Allisson Dev Front End</h1>
+    
+    <script type="text/javascript">
+    window.addEventListener('mousemove', function
+    (){
+ var body=document.querySelector('body');
+ var create=document.createElement('span');
+ var x=Math.floor(Math.random()*1200);
+ var y=Math.floor(Math.random()*1200);
+create.style.top=y+'px';
+create.style.left=x+'px';
+ body.appendChild(create);
+ setTimeout(function(){
+create.remove();
+ },3000)
+    });
+    </script>
+</body>
+</html>

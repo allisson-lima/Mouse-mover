@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #222;
+    color: #fff;
+}
+span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-image: url(icone.git.png);
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: .4;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
