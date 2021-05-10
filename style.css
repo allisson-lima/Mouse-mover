@@ -14,6 +14,11 @@ body{
     background-color: #fff;
     color: #222;
 }
+h1{
+    position: absolute;
+    font-size: 34px;
+    padding: 10px;
+}
 span{
     position: absolute;
     width: 50px;
